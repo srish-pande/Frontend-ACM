@@ -1,0 +1,266 @@
+body, html { overflow-x:hidden; }
+
+body {
+    background-color: #ffffff;
+    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-size: 12px;
+	
+	font-weight: 300; 
+	font-style: normal; 
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.top-menu {
+    min-height:110px;
+    background-color:#ffffff;
+    z-index: 5000;
+    width:100%;
+}
+
+.top-menu .navbar-toggle {
+    margin-top: 38px;
+}
+
+.top-menu .navbar-brand {
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+
+.welcome {
+    border-bottom: 1px solid #cccccc;
+    min-height: 230px;
+}
+
+.slogan {
+    font-family:  'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 42px;
+    margin: 60px 0;
+    color: #333333;
+}
+
+.btn-orange {
+    background-color: #ff7600;
+    border-bottom:2px solid #d35400;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
+}
+
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
+    background-color: #d35400;
+    color:#ffffff;
+}
+.nav > li > a {
+    padding: 10px 20px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #ff7600;
+    color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #ff7600;
+    color:#fff;
+}
+.nav > li > a {
+    color: #929292;
+}
+.navbar-default {
+    background-color:#fff;
+    border:none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #ff7600;
+    color:#fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.team_hr {
+    border: 1px solid #fff; 
+    width: 39.5%; 
+    float: left;
+}
+
+.team_hr_left {
+    margin-right: 30px;
+    margin-left: 15px; 
+}
+
+.team_hr_right {
+    margin-left: 30px;
+}
+
+.hr_gray {
+    border: 1px solid #cccccc; 
+}
+
+.project-gallery li {
+    margin:15px;
+}
+
+.txt_darkgrey {
+    color: #333333;
+}
+
+.txt_orange {
+    color: #e67e22;
+}
+
+.txt_slogan {
+    font-size:14px; 
+    color:#929292;
+}
+
+.line-header span {
+    font-size: 18px; 
+    float :left; 
+    margin-top: 10px;
+}
+
+
+.blog_post {
+    color: #333333; 
+    padding: 10px;
+}
+
+.blog_header {
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.blog_text {
+    text-align: justify; 
+    font-size: 14px; 
+    margin-top: 20px;
+}
+
+
+a:hover .social-icon-fb {
+    background: url('../images/social-icon-fb-over.png') no-repeat;
+}
+
+.link_orange:hover {
+    text-decoration:none;
+}
+.tweets {
+    background-color: #8996a0;
+    min-height:200px;
+    font-family:  'Open Sans', sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    margin-top:100px;
+}
+.footer{
+	min-height:100px;
+	text-align: center;
+    font-family:  'Open Sans', sans-serif;
+    font-size:15px;
+}
+@media (min-width:991px) and (max-width:1200px) {
+    .project-box, .project-overlay {
+        height:170px;
+        width:170px;
+    }
+
+    .project-gallery {
+        margin-left: -70px;
+    }
+
+    .service-item-header {
+        padding: 16px 10px 20px;
+    }
+
+    .header-orange {
+        min-width: 230px;
+    }
+
+    .team_box,  .team_box_over {
+        height:220px;
+        width:220px;
+    }
+	
+}
+
+
+@media (max-width:991px) {
+    .team-inner {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+	
+    .btn-read-more {
+        float:right;
+        margin-bottom :40px; 
+    }
+}
+
+
+@media (min-width:768px) and (max-width:990px) {
+
+    .blog_box{
+       margin-right: -140px;
+    }
+}
+
+
+
+@media (min-width:991px) and (max-width: 1200px) {
+	 .team_hr {
+		width: 37%; 
+	}
+}
+
+@media (min-width:683px) and ( max-width: 991px) {
+	 .team_hr {
+		width: 33%;
+	}
+}
+
+@media (min-width:585px) and ( max-width: 683px) {
+        .member-thumb .thumb-overlay {
+            padding-left: 25%;
+
+        }
+	 .team_hr {
+		width: 30%;
+	}
+}
+
+@media (min-width:536px) and ( max-width: 585px) {
+	 .team_hr {
+		width: 28%;
+	}
+}
+
+@media  (min-width:410px) and  ( max-width: 536px) {
+	 .team_hr {
+		width: 21%;
+	}
+}
+
+@media  ( max-width: 410px) {
+	 .team_hr {
+		width: 11%;
+	}
+}
